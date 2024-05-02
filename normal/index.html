@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<title>MyMedMen Normal Desktop</title>
+		<link rel="stylesheet" href="css/normal_style.css">
+		<link rel="stylesheet" href="css/examples.css">
+		<link rel="stylesheet" href="css/jquery.pagepiling.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.default.css">
+		<link rel='stylesheet' href='css/style.css' media='screen' />
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/normal_js.js"></script>
+		<script type="text/javascript" src="js/jquery.pagepiling.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+		<!--<script type="text/javascript" src="js/parallax.elements.js"></script>
+		<script type="text/javascript" src="js/parallax.keypress.js"></script>
+		<script type="text/javascript" src="js/parallax.functions.js"></script>
+		<script type="text/javascript" src="js/parallax.js"></script>
+		<script type="text/javascript" src="js/parallax.swipe.js"></script>-->
+
+		<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			* Plugin intialization
+			*/
+	    	$('#pagepiling').pagepiling({
+	          	direction: 'horizontal',
+	    		menu: '#menu',
+	    		anchors: ['page1', 'page2', 'page3', 'page4','page5','page6'],
+			    sectionsColor: ['#000', '#C7282C', '#000', '#000', '#000','#C7282C'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4','Pgae 5','Pgae 6']
+			   	},
+			    afterRender: function(){
+			    	$('#pp-nav').addClass('custom');
+			    },
+			    afterLoad: function(anchorLink, index){
+			    	if(index>1){
+			    		$('#pp-nav').removeClass('custom');
+			    	}else{
+			    		$('#pp-nav').addClass('custom');
+			    	}
+			    }
+			});
+	    });
+    </script>
+	</head>
+	<body>	
+		<!-- Share S -->
+		<div class="icon_share clearfix cursor"><img src="img/icon_share.svg"></div>
+		<!-- Share Modal S -->
+		<div class="modal_bg" id="share">
+			<div class="share_modal t_white clearfix">
+				<span class="close_modal cursor"><img src="img/modal_close.svg"></span>
+				<div class="col_s_10_of_10">
+					<p class="modal_title">Share</p>
+					<div class="col_s_10_of_10 clearfix txc">
+						<span class="pa_10"><img src="img/icon_insta.svg"></span>
+						<span class="pa_10"><img src="img/icon_twitter.svg"></span>
+						<span class="pa_10"><img src="img/icon_facebook.svg"></span>
+						<span class="pa_10"><img src="img/icon_sms.svg"></span>
+					</div>
+					<div class="col_s_10_of_10 clearfix txc pt_20 pb_20">
+						<input type="text" class="modal_input" value="medmen.com/thenewnormal"><button class="modal_btn">Copy</button>
+					</div>
+					<p class="modal_title txl clearfix pt_20">The New Normal is here. The next step is up to you. </p>
+				</div>
+			</div>
+		</div>
+		<!-- Share Modal E -->
+		<!-- Share E -->
+
+		<!-- Video Modal S -->
+		<div class="modal_bg full" id="video">
+			<div class="video_modal t_white clearfix">
+				<span class="close_modal cursor"><img src="img/modal_close.svg"></span>
+				<div class="col_s_10_of_10">
+					<div class="col_s_5_of_10 pr_30"><img src="img/spike_jonze.png" class="full_img"></div>
+					<div class="col_s_5_of_10 pl_30">
+						<div class="pre_title t_upper">the director</div>
+						<div class="heavy_title t_bold t_red clearfix">Spike Jonze</div>
+						<div class="caption lh_200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Video Modal E -->
+		
+		<!-- Slider S -->
+		<div id="pagepiling">
+			<!-- Intro S -->
+			<div class="section intro" id="section0">
+		    	<div class="txc t_gray c_container">
+		    		<p><img src="img/red_leaf.svg"></p>
+		    		<p class="main_title t_white t_bold t_shadow">American Cannabis: The New Normal</p>
+		    		<p class="caption pt_20">DIRECTED BY</p>
+		    		<p class="subtitle pb_20">SPIKE JONZE</p>
+		    		<p class="pt_10"><button class="bg_red t_white main_btn">Watch Video</button></p>
+		    		<div class="txc col_s_10_of_10 clearfix pa_30">
+		    			<div class="col_s_10_of_10 txc clearfix">
+		    				<div class="icon-scroll"></div>
+		    			</div>
+		    			<div class="col_s_10_of_10 txc clearfix">
+				    		<div class="m_container">
+							  <div class="chevron"></div>
+							  <div class="chevron"></div>
+							  <div class="chevron"></div>
+							</div>
+						</div>
+					</div>
+		    	</div>
+		    </div>
+		    <!-- Intro E -->
+
+		    <!-- Welcome S -->
+		    <div class="section welcome_bg" id="section1">
+		    	<div class="col_s_9_of_10 fr c_container">
+			    	<div class="col_s_7_of_10 fr clearfix txl table">
+			    		<div class="col_s_5_of_10 pr_20 ani_right_left">
+			    			<div class="main_title t_white clearfix">Welcome to the <br/>New Normal.</div>
+			    			<div class="subtitle clearfix pt_20 lh_200">Cannabis is not a four-letter word. What has inspired the creators, the makers and disruptors will now inspire us all. Welcome to an era of renewed health and happiness. It’s normal again, now where do we grow from here?</div>
+			    		</div>
+			    		<div class="col_s_5_of_10"><img src="img/goverment_building.png"></div>
+			    	</div>
+			    </div>
+			</div>
+		    <!-- Welcome E -->
+
+		    <!-- The Story S -->
+		    <div class="section" id="section2">
+		    	<div class="col_s_8_of_10 fr clearfix c_container table story_height">
+			    	<div class="fixed_title txl fl">
+		    			<div class="pre_title t_white t_upper">the story</div>
+		    			<div class="heavy_title t_bold t_red clearfix">Untold,<br/>Until Now</div>
+		    			<div class="caption clearfix pt_20 lh_200">The New Normal begins with a story that needed telling. The story of American cannabis. How something as common as corn was relegated to back alleys. The story of unjust punishment. But most of all, the story of redemption. </div>
+			    	</div>
+		    	
+			    	<div class="clearfix carousel_container fl">
+			    		 <div class="owl-carousel owl-theme" id="story">
+				            <div class="item pr_20">
+								<div ><img src="img/washington.png" class="hover_img"></div>
+								<div class="director_video cursor">
+									<p><img src="img/director.png"></p>
+									<span class="t_red pt_20 caption under_bar clearfix">Spike Jonze<Br/>Director, “The New Normal”</span>
+								</div>
+				            </div>
+							<div class="item pl_20">
+								<div class="caption_title col_s_5_of_10 txr lh_100 p_higher"><span class="pr_10 vt"><img src="img/quotes.svg" class="vt"></span>It was important that we told an authentic story, and [Jonze] was the right person to do it.”<br/><span class="pre_title">– Adam Bierman,<br/>MedMen Co-Founder</span></div>
+								<div class="txr la_week"><img src="img/la_week.png" class="hover_img"></div>
+							</div>
+				            
+				        </div>
+			    	</div>
+			    </div>
+		    	<script>
+		            $(document).ready(function() {
+						$('#story').owlCarousel({
+						    items:1.8,
+						    loop:false,
+						    margin:10,
+						    nav:false,
+						    dots:false,
+						    lazyLoad:true,
+
+						});
+					});
+	          </script>
+
+			</div>
+		    <!-- The Story S -->
+
+		    <!-- The Voice S -->
+		    <div class="section t_white" id="section3">
+		    	<div class="col_s_9_of_10 fr clearfix c_container table full_height">
+			    	<div class="fixed_title wider txl fl">
+		    			<div class="pre_title t_white t_upper">the voice</div>
+		    			<div class="heavy_title t_bold t_red clearfix">A Fearless<br/>Leader</div>
+		    			<div class="caption clearfix pt_20 lh_200">Actor and activist Jesse Williams used to be a history teacher. Unafraid to tell it like it is, he’s giving us all a lesson in why the New Normal is about so much more than legalizing marijuana.</div>
+			    	</div>
+		    	
+			    	<div class="clearfix carousel_container fl">
+			    		 <div class="owl-carousel owl-theme" id="voice">
+				            <div class="item pr_20 clearfix">
+				              <div><img src="img/william.png" class="hover_img"></div>
+					    		<div class="voice_video cursor">
+					    			<p><img src="img/william2.png"></p>
+					    			<span class="t_red pt_20 caption under_bar clearfix">Williams on EMBER Issue 04</span>
+					    		</div>
+				            </div>
+							<div class="item pl_20 clearfix">
+								<div class="caption_title p_higher col_s_5_of_10 txr lh_120 pl_30"><span class="pr_10 vt"><img src="img/quotes.svg" class="vt"></span>I think I’ve made it pretty clear that  I’m not scared of being the first in trying new things, and speaking truth to power.”<br/><span class="pre_title">– Jesse Williams for EMBER</span></div>
+								<div class="txr william_article"><span class="caption under_bar clearfix">Read the Full Article</span><img src="img/william_article.png"></div>
+							</div>
+				            
+				        </div>
+			    	</div>
+			    </div>
+		    	<script>
+		            $(document).ready(function() {
+						$('#voice').owlCarousel({
+						    items:1.8,
+						    loop:false,
+						    margin:10,
+						    nav:false,
+						    dots:false,
+						    lazyLoad:true,
+
+						});
+					});
+	          </script>
+		    </div> 
+		    <!-- The Voice E -->
+
+		    <!-- The Making S -->
+		   <div class="section t_white making_bg" id="section4">
+		    	<div class="col_s_8_of_10 fr clearfix c_container">
+			    	<div class="fixed_title wider txl fl">
+		    			<div class="pre_title t_white t_upper">the making</div>
+		    			<div class="heavy_title t_bold t_red clearfix">An 80-Year<br/>Journey</div>
+		    			<div class="caption clearfix pt_20 lh_200">Putting nearly a century of prohibition in the past can’t happen overnight. But as we journey through the camera lens and into Jonze’s vision for change, we take an important step forward, together.</div>
+			    	</div>
+		    	
+			    	<div class="clearfix carousel_container fl">
+			    		 <div class="owl-carousel owl-theme" id="making">
+
+				            <div class="item">
+								<p class="p_relative"><img src="img/play_video.svg" class="icon_video"><img src="img/making_1.png" class="full_img"></p>
+								<span class="t_red pt_20 caption under_bar clearfix p_relative">Williams on EMBER Issue 04</span>
+				            </div>
+
+				            <div class="item">
+								<p class="p_relative"><img src="img/play_video.svg" class="icon_video"><img src="img/making_2.png" class="full_img"></p>
+								<span class="t_red pt_20 caption under_bar clearfix p_relative">Williams on EMBER Issue 04</span>
+				            </div>
+
+				            <div class="item">
+								<p class="p_relative"><img src="img/play_video.svg" class="icon_video"><img src="img/making_3.png" class="full_img"></p>
+								<span class="t_red pt_20 caption under_bar clearfix p_relative">Williams on EMBER Issue 04</span>
+				            </div>
+				            <div class="item">
+								<p class="p_relative"><img src="img/play_video.svg" class="icon_video"><img src="img/making_4.png" class="full_img"></p>
+								<span class="t_red pt_20 caption under_bar clearfix p_relative">Williams on EMBER Issue 04</span>
+				            </div>
+				            <div class="item">
+								<p class="p_relative"><img src="img/play_video.svg" class="icon_video"><img src="img/making_5.png" class="full_img"></p>
+								<span class="t_red pt_20 caption under_bar clearfix p_relative">Williams on EMBER Issue 04</span>
+				            </div>
+				        </div>
+			    	</div>
+			    </div>
+		    	<script>
+		            $(document).ready(function() {
+						$('#making').owlCarousel({
+							items: 2.5,
+						    margin:10,
+						    loop:false,
+						    nav:false,
+						    dots:false,
+						    lazyLoad:true
+						});
+					});
+	          </script>
+		    </div> 
+		    <!-- The Making e -->
+		    
+		   	<!-- The Future S -->
+		    <div class="section welcome_bg t_white" id="section5">
+		    	<div class="c_container col_s_6_of_10 fc pl_20">
+		    		<div class="col_s_7_of_10 txl">
+		    			<div class="main_title t_bold">The New Normal is here.<br/>The next step is up to you. </div>
+		    			<div class="caption_title pt_20 pb_30">We believe a world where cannabis  is legal and regulated is a safer, healthier and happier world.  Share now if you believe it too.</div>
+		    			<div class="clearfix pt_30 pb_30">
+		    				<span class="pr_20"><img src="img/icon_insta.svg"></span>
+							<span class="pr_20"><img src="img/icon_twitter.svg"></span>
+							<span><img src="img/icon_facebook.svg"></span>
+						</div>
+						<div class="clearfix pt_30"><span class="under_bar white pre_title clearfix">Read More About the New Normal</span></div>
+		    		</div>
+		    	</div>
+		    </div> 
+		    <!-- The Future E -->
+
+		</div>
+		<!-- Slider E -->
+	
+
+
+		<!-- Timeline S -->
+		<div class="bottom_menu">
+			<ul id="menu">
+				<li data-menuanchor="page1" class="active"><a href="#page1"><img src="img/arrow_back.svg" class="backtohome"></a></li>
+				<li data-menuanchor="page2"><div class="line"></div><a href="#page2"><p class="circle clearfix"></p>welcome</a></li>
+				<li><img src="img/3lines.svg"></li>
+				<li data-menuanchor="page3"><div class="line" id="redline"></div><a href="#page3"><p class="circle" id="red"></p>the story</a></li>
+				<li><img src="img/3lines.svg"></li>
+				<li data-menuanchor="page4"><div class="line" id="redline"></div><a href="#page4"><p class="circle"id="red"></p>the voice</a></li>
+				<li><img src="img/3lines.svg"></li>
+				<li data-menuanchor="page5"><div class="line" id="redline"></div><a href="#page5"><p class="circle"id="red"></p>the making</a></li>
+				<li><img src="img/3lines.svg"></li>
+				<li data-menuanchor="page6"><div class="line"></div><a href="#page6"><p class="circle"></p>the future</a></li>
+			</ul>
+		</div>
+		<!-- Timeline E -->
+		
+
+		<script type="text/javascript">
+		    // By default, swipe is enabled.
+		    $('section').horizon();
+
+		    // If you do not want to include another plugin, TouchSwipe, you can set it to false in the default options by passing in the option as false.
+		    //$('section').horizon({swipe: false});
+
+		    $(document).on('click', '.go-to-2', function () {
+		        $(document).horizon('scrollTo', 'section-section2');
+		    });
+		</script>
+	</body>
+</html>

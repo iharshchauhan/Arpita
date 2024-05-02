@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>AWESOME ICON</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60" rx="13"></rect>
+        <rect id="path-3" x="0" y="0" width="60" height="60"></rect>
+    </defs>
+    <g id="Icon-Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="preview-white" transform="translate(-114.000000, -201.000000)">
+            <g id="AWESOME-ICON" transform="translate(114.000000, 201.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="app-icon" mask="url(#mask-2)">
+                    <g id="EDIT-ME">
+                        <g id="bg">
+                            <use fill="#007AFF" xlink:href="#path-3"></use>
+                            <use fill="#A20000" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="M" transform="translate(18.000000, 10.000000)" fill="#FFFFFF">
+                            <polygon points="16.9874145 0 12.0005068 15.0248551 7.01663992 0 -1.13686838e-13 0 -1.13686838e-13 41.0860652 6.78199172 41.0860652 6.78199172 16.2572164 11.9427316 31.8120587 12.0577751 31.8120587 17.2210491 16.2572164 17.2210491 41.0860652 24 41.0860652 24 0"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

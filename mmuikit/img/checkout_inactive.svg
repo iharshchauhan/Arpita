@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="66px" viewBox="0 0 375 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>Checkout Bottom</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile---POS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="No-Items-in-Cart" transform="translate(0.000000, -601.000000)">
+            <g id="Checkout-Bottom" transform="translate(0.000000, 557.000000)">
+                <g id="Checkout-Bottom-Down" transform="translate(0.000000, 44.000000)">
+                    <path d="M162,11.8208955 L162,10 C162,4.4771525 166.477153,1.01453063e-15 172,0 L202,0 C207.522847,-1.01453063e-15 212,4.4771525 212,10 L212,11.8208955 L375,11.8208955 L375,66 L0,66 L0,11.8208955 L162,11.8208955 Z" id="Combined-Shape" fill="#A20000" fill-rule="evenodd"></path>
+                    <g id="Group-8" stroke-width="1" fill-rule="evenodd" transform="translate(20.000000, 22.000000)"></g>
+                    <g id="Group-8" stroke-width="1" fill-rule="evenodd" transform="translate(20.000000, 22.000000)">
+                        <text id="Total-$0.00" font-family="AvenirNext-Bold, Avenir Next" font-size="13" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="0" y="13">Total $0.00</tspan>
+                        </text>
+                        <text id="Items-:-0" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" fill="#FFD800">
+                            <tspan x="0" y="30">Items : 0</tspan>
+                        </text>
+                        <text id="Allowance-:-28.5g" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" fill="#FFD800">
+                            <tspan x="63" y="30">Allowance : 28.5g</tspan>
+                        </text>
+                    </g>
+                    <g id="Inactive-Checkout-CTA" transform="translate(245.000000, 19.000000)" fill-rule="evenodd" stroke-width="1">
+                        <g id="Group-9">
+                            <rect id="Rectangle-19" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="110" height="40" rx="20"></rect>
+                            <text id="Checkout" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#AAAAAA">
+                                <tspan x="27.406" y="24">Checkout</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Slide-up" transform="translate(184.000000, 8.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="1">
+                        <path d="M5.85608544,2.87545732 L2.83884932,5.90788271 C2.64691666,6.1008812 2.33573074,6.1008812 2.14389126,5.90788271 C1.95203625,5.71505591 1.95203625,5.40230939 2.14389126,5.2094982 L4.81367941,2.52626506 L2.14396891,-0.156874422 C1.9521139,-0.349779263 1.9521139,-0.662494571 2.14396891,-0.855321369 C2.33582392,-1.04822621 2.64699431,-1.04822621 2.83892697,-0.855321369 L5.85616309,2.17715085 C5.9520906,2.27361107 6,2.39989905 6,2.52624945 C6,2.65266229 5.95199742,2.77904392 5.85608544,2.87545732 Z" id="Shape" transform="translate(4.000000, 2.526316) scale(1, -1) rotate(90.000000) translate(-4.000000, -2.526316) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
